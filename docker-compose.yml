@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  ollama:
+    container_name: ollama
+    image: ollama/ollama:0.3.12
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama  # optional but recommended
+    restart: unless-stopped
+
+volumes:
+  ollama_models:
+
+# docker compose up -d
+# docker exec -it ollama ollama pull llama3.2
+# docker exec -it ollama ollama run llama3.2 (for running llama3.2 model with docker)
+# I have locally installed ollama. So I don't need docker.

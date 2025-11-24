@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-ai-toon-demo
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3.2:latest
+
+server:
+  port: 8080

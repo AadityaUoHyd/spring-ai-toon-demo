@@ -9,7 +9,7 @@ The similarity to CSV is intentional: CSV is simple and ubiquitous, and TOON aim
 
 Think of it as a translation layer: use JSON programmatically, and encode it as TOON for LLM input.
 
-![](https://raw.githubusercontent.com/AadityaUoHyd/spring-ai-toon-demo/refs/heads/main/images/toon.png)
+![](https://raw.githubusercontent.com/AadityaUoHyd/spring-ai-toon-demo/refs/heads/master/images/toon.png)
 
 ## Compare formats (json, toon, yml, csv, xml)
 https://toontools.vercel.app/playground
@@ -64,7 +64,7 @@ zip: "500034"
 2025-11-24T23:23:18.414+05:30  INFO 14344 --- [spring-ai-toon-demo] [nio-8080-exec-6] o.a.controller.JsonToonDemoController    : TOON Input Tokens: 60
 ```
 - Output at swagger
-![](https://raw.githubusercontent.com/AadityaUoHyd/spring-ai-toon-demo/refs/heads/main/images/output.png)
+![](https://raw.githubusercontent.com/AadityaUoHyd/spring-ai-toon-demo/refs/heads/master/images/output.png)
 
 ## Sources
 https://github.com/toon-format/toon
